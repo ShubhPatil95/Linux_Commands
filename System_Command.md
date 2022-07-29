@@ -1,4 +1,4 @@
-# Linux_Commands
+# System_Command
 
 #### 1. Check PID
 ```ruby
