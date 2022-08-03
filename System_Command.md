@@ -22,3 +22,7 @@ find ./ -type f -size +1M -size +2M
 ```ruby
 find ./ -type f -size +1k -exec ls -lh {} \; | awk '{print $9 "|| size : "$5 }'
 ```
+## 6. Check runnig services on system
+```ruby
+systemctl --type service --all | grep running | grep KEYWORD
+```
